@@ -2,8 +2,9 @@
 dom6manual.pdf
 *.pdf
 
-# Generated output (see README "Copyright"). Uncomment to keep it locally.
-# chapters/
+# Generated output: the extracted text is not redistributable (see README
+# "Copyright"). Generate it from your own copy; never commit it.
+chapters/
 
 # Python
 __pycache__/

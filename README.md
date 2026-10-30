@@ -93,11 +93,14 @@ page markers + per-chapter subtitle lines that the extractor adds:
 ```
 PDF  (p.6–98) : 61,485 tokens
 Markdown      : 61,485 tokens
-only difference: {Turn, Effects}  ->  {TurnEffects}
+
+missing from md : 2   'Turn', 'Effects'
+not in pdf      : 2   'TurnEffects', '32'
 ```
 
-That single difference is a cell spanning rows in the p.71 *Twilight* table
-(see *Limitations*). **Zero words lost, zero invented.**
+That single difference is a cell spanning two rows in the p.71 *Twilight* table
+(see *Limitations*): `Turn` + `Effects` are merged into `TurnEffects`, and one
+row value (`32`) lands outside the table. **Zero words lost, zero invented.**
 
 ### Check it yourself
 
@@ -114,8 +117,9 @@ multiset comparison, not a fuzzy match, so any additional difference — a dropp
 word, a duplicated row, a wrong number — makes it exit non-zero. Without the flag
 it is a strict equality check.
 
-If it fails for you, that is a real finding. Open an issue with the output and,
-ideally, the page number so the offending heuristic can be fixed.
+If it fails for you, that is a real finding. Open an issue with the output and
+the page number (see [`CONTRIBUTING.md`](CONTRIBUTING.md)) so the offending
+heuristic can be fixed.
 
 Two other checks:
 
@@ -176,6 +180,16 @@ python validate.py --pdf dom6manual.pdf --md chapters --expect-known-delta
 - Very rarely a sentence continuing across a column break starts with a capital
   letter (e.g. a proper noun such as *Ulmish masons*) and is treated as a new
   paragraph. This over-splits; it never loses text.
+
+## Contributing
+
+The most useful report is a **page number**. If you find text that is wrong,
+missing, or in the wrong shape, run `validate.py` and open an issue with its
+output plus the page — instructions, the four mandatory checks, and the
+constraints any patch must respect are in [`CONTRIBUTING.md`](CONTRIBUTING.md).
+
+The extracted Markdown is deliberately **not** published here (see *Copyright*),
+so a reproduction means running the extractor on your own copy of the manual.
 
 ## Copyright
 
