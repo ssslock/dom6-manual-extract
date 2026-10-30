@@ -1,0 +1,132 @@
+[
+ {
+  "id": "T01",
+  "group": "textbook",
+  "rank": 1
+ },
+ {
+  "id": "T02",
+  "group": "textbook",
+  "rank": 2
+ },
+ {
+  "id": "T03",
+  "group": "textbook",
+  "rank": 1
+ },
+ {
+  "id": "T04",
+  "group": "textbook",
+  "rank": 3
+ },
+ {
+  "id": "T05",
+  "group": "textbook",
+  "rank": 1
+ },
+ {
+  "id": "T06",
+  "group": "textbook",
+  "rank": 2
+ },
+ {
+  "id": "T07",
+  "group": "textbook",
+  "rank": 5
+ },
+ {
+  "id": "T08",
+  "group": "textbook",
+  "rank": 1
+ },
+ {
+  "id": "T09",
+  "group": "textbook",
+  "rank": 4
+ },
+ {
+  "id": "T10",
+  "group": "textbook",
+  "rank": 1
+ },
+ {
+  "id": "T11",
+  "group": "textbook",
+  "rank": 1
+ },
+ {
+  "id": "T12",
+  "group": "textbook",
+  "rank": 1
+ },
+ {
+  "id": "T13",
+  "group": "textbook",
+  "rank": 3
+ },
+ {
+  "id": "T14",
+  "group": "textbook",
+  "rank": 1
+ },
+ {
+  "id": "C01",
+  "group": "colloquial",
+  "rank": 1
+ },
+ {
+  "id": "C02",
+  "group": "colloquial",
+  "rank": 4
+ },
+ {
+  "id": "C03",
+  "group": "colloquial",
+  "rank": 1
+ },
+ {
+  "id": "C04",
+  "group": "colloquial",
+  "rank": 1
+ },
+ {
+  "id": "C05",
+  "group": "colloquial",
+  "rank": 1
+ },
+ {
+  "id": "C06",
+  "group": "colloquial",
+  "rank": 1
+ },
+ {
+  "id": "C07",
+  "group": "colloquial",
+  "rank": 4
+ },
+ {
+  "id": "C08",
+  "group": "colloquial",
+  "rank": 1
+ },
+ {
+  "id": "C09",
+  "group": "colloquial",
+  "rank": 1
+ },
+ {
+  "id": "C10",
+  "group": "colloquial",
+  "rank": 2
+ },
+ {
+  "id": "C11",
+  "group": "colloquial",
+  "rank": 1
+ },
+ {
+  "id": "C12",
+  "group": "colloquial",
+  "rank": 1
+ }
+]

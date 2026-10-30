@@ -1,0 +1,176 @@
+{
+  "description": "Cross-lingual retrieval regression set: Chinese question -> English manual section. 'expect' is a substring of the chunk header (chapter > section).",
+  "top_k": 5,
+  "cases": [
+    {
+      "id": "T01",
+      "group": "textbook",
+      "question": "DRN 是怎么算的？两个骰子取差是什么机制",
+      "english": "How is the DRN (Dominions Random Number) calculated? two dice difference",
+      "expect": "Dominions Random Number (DRN)"
+    },
+    {
+      "id": "T02",
+      "group": "textbook",
+      "question": "省份防御值怎么影响战斗",
+      "english": "How does province defense affect combat",
+      "expect": "The Map > Province Defense"
+    },
+    {
+      "id": "T03",
+      "group": "textbook",
+      "question": "沼泽的地形移动消耗是多少",
+      "english": "What is the movement cost for swamp terrain",
+      "expect": "General rules governing movement"
+    },
+    {
+      "id": "T04",
+      "group": "textbook",
+      "question": "士气崩了军队会怎么溃逃",
+      "english": "What happens when an army routs due to morale",
+      "expect": "Morale and rout > Rout"
+    },
+    {
+      "id": "T05",
+      "group": "textbook",
+      "question": "围城的时候补给怎么算",
+      "english": "How is supply calculated during a siege",
+      "expect": "Supply during sieges"
+    },
+    {
+      "id": "T06",
+      "group": "textbook",
+      "question": "招募点数是怎么计算的",
+      "english": "How are recruitment points calculated",
+      "expect": "Recruitment costs"
+    },
+    {
+      "id": "T07",
+      "group": "textbook",
+      "question": "护甲被打穿是怎么判定的",
+      "english": "How is an armor defeating hit determined",
+      "expect": "Armor defeating hits"
+    },
+    {
+      "id": "T08",
+      "group": "textbook",
+      "question": "疲劳满了会怎么样",
+      "english": "What happens when a unit is fully fatigued",
+      "expect": "Fatigue"
+    },
+    {
+      "id": "T09",
+      "group": "textbook",
+      "question": "攻城成功之后守军会怎样",
+      "english": "What happens to defenders when a castle is stormed",
+      "expect": "Storming a castle"
+    },
+    {
+      "id": "T10",
+      "group": "textbook",
+      "question": "血猎这个命令是干什么的",
+      "english": "What does the Blood Hunt order do",
+      "expect": "Orders > Blood Hunt"
+    },
+    {
+      "id": "T11",
+      "group": "textbook",
+      "question": "假神死了还能复活吗",
+      "english": "Can a dead pretender come back",
+      "expect": "Pretender death"
+    },
+    {
+      "id": "T12",
+      "group": "textbook",
+      "question": "毒伤害是怎么结算的",
+      "english": "How is poison damage resolved",
+      "expect": "Poison damage"
+    },
+    {
+      "id": "T13",
+      "group": "textbook",
+      "question": "击退是怎么判定的",
+      "english": "How does repel work",
+      "expect": "Repel"
+    },
+    {
+      "id": "T14",
+      "group": "textbook",
+      "question": "部队经验等级有什么加成",
+      "english": "What bonuses do units get from experience levels",
+      "expect": "XP: Experience points"
+    },
+    {
+      "id": "C01",
+      "group": "colloquial",
+      "question": "这游戏那个drn到底咋滚的",
+      "expect": "Dominions Random Number (DRN)"
+    },
+    {
+      "id": "C02",
+      "group": "colloquial",
+      "question": "为啥我兵一碰就溃了",
+      "expect": "Morale and rout > Rout"
+    },
+    {
+      "id": "C03",
+      "group": "colloquial",
+      "question": "守城粮吃完了会咋样",
+      "expect": "Supply during sieges"
+    },
+    {
+      "id": "C04",
+      "group": "colloquial",
+      "question": "法师研究点数怎么涨快点",
+      "expect": "Research"
+    },
+    {
+      "id": "C05",
+      "group": "colloquial",
+      "question": "假神死了是不是就凉了",
+      "expect": "Pretender death"
+    },
+    {
+      "id": "C06",
+      "group": "colloquial",
+      "question": "fatigue 高了会昏过去吗",
+      "expect": "Fatigue"
+    },
+    {
+      "id": "C07",
+      "group": "colloquial",
+      "question": "中毒是慢慢掉血吗",
+      "expect": "Poison damage"
+    },
+    {
+      "id": "C08",
+      "group": "colloquial",
+      "question": "stealth 兵进敌省扣多少移动",
+      "expect": "General rules governing movement"
+    },
+    {
+      "id": "C09",
+      "group": "colloquial",
+      "question": "啥叫 admin 值",
+      "expect": "The Map > Forts"
+    },
+    {
+      "id": "C10",
+      "group": "colloquial",
+      "question": "城里招兵那个资源咋算",
+      "expect": "Recruitment costs"
+    },
+    {
+      "id": "C11",
+      "group": "colloquial",
+      "question": "被打出 affliction 能治吗",
+      "expect": "Afflictions"
+    },
+    {
+      "id": "C12",
+      "group": "colloquial",
+      "question": "bless 效果能自己选吗",
+      "expect": "Bless Effects"
+    }
+  ]
+}

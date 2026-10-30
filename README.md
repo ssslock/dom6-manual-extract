@@ -181,6 +181,22 @@ python validate.py --pdf dom6manual.pdf --md chapters --expect-known-delta
   letter (e.g. a proper noun such as *Ulmish masons*) and is treated as a new
   paragraph. This over-splits; it never loses text.
 
+## Retrieval eval
+
+Extraction quality and *findability* are different problems. `eval/` holds a 26-case
+regression set that asks a question in Chinese and checks whether the right English
+manual section comes back in the top 5 — useful if you feed these chunks into a RAG
+system and want to know when a change makes it worse.
+
+```bash
+export KB_USER=... KB_PASSWORD=...
+python eval/run_eval.py --kb dominions6 --out run.json --baseline eval/baseline.json
+```
+
+The tricky parts are silent: a wrong chunk in position 3 looks exactly like a right one.
+Details and the reasoning behind querying over HTTP instead of embedding locally are in
+[`eval/README.md`](eval/README.md).
+
 ## Contributing
 
 The most useful report is a **page number**. If you find text that is wrong,
