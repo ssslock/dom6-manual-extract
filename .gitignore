@@ -1,0 +1,17 @@
+# Input: the manual is copyrighted by Illwinter — do not commit it.
+dom6manual.pdf
+*.pdf
+
+# Generated output (see README "Copyright"). Uncomment to keep it locally.
+# chapters/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store

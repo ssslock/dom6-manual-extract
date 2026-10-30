@@ -1,0 +1,56 @@
+[
+  {
+    "file": "01_introduction.md",
+    "title": "Introduction",
+    "page": 6,
+    "chars": 23726
+  },
+  {
+    "file": "02_the_basics.md",
+    "title": "The Basics",
+    "page": 13,
+    "chars": 62549
+  },
+  {
+    "file": "03_the_pretender.md",
+    "title": "The Pretender",
+    "page": 30,
+    "chars": 26367
+  },
+  {
+    "file": "04_units.md",
+    "title": "Units",
+    "page": 37,
+    "chars": 35998
+  },
+  {
+    "file": "05_movement.md",
+    "title": "Movement",
+    "page": 47,
+    "chars": 39333
+  },
+  {
+    "file": "06_combat.md",
+    "title": "Combat",
+    "page": 57,
+    "chars": 65332
+  },
+  {
+    "file": "07_magic.md",
+    "title": "Magic",
+    "page": 73,
+    "chars": 37627
+  },
+  {
+    "file": "08_dominion.md",
+    "title": "Dominion",
+    "page": 82,
+    "chars": 29707
+  },
+  {
+    "file": "09_the_origins_of_nations.md",
+    "title": "The Origins of Nations",
+    "page": 89,
+    "chars": 45040
+  }
+]
